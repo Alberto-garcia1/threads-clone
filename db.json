@@ -1,0 +1,88 @@
+{
+    "users": [
+        {
+            "id": 0,
+            "user_iuud": "c801e110-e430-46fb-8c07-10340f4145ff",
+            "username": "Code with Alberto Garcia",
+            "handle": "albertogarcia",
+            "bio": "I am a software engineer and I love to code",
+            "link": "https://github.com/Alberto-garcia1",
+            "img": "https://i.imgur.com/dfVhVaB.jpeg",
+            "instagram_url": "https://www.instagram.com/alberto.g8/",
+            "followers": [
+                {
+                    "user_iuud": "f9712cd1-b722-46ae-a75e-44e323f795ba"
+                },
+                {
+                    "user_iuud": "a8e841ac-b224-4574-8547-630ba8af304d"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "user_iuud": "f9712cd1-b722-46ae-a75e-44e323f795ba",
+            "username": "CodewithJimmy",
+            "handle": "Jimmy Codes",
+            "bio": "I am a software engineer and I hate to code",
+            "link": "https://www.codewithjimmy.com",
+            "img": "https://i.imgur.com/IXZNCOz.jpeg",
+            "instagram_url": "https://www.instagram.com/jimmycodes/",
+            "followers": [
+                {
+                    "user_iuud": "c801e110-e430-46fb-8c07-10340f4145ff"
+                }
+            ]
+        },
+        {
+            "id": 2,
+            "user_iuud": "a8e841ac-b224-4574-8547-630ba8af304d",
+            "username": "Tommybuilds",
+            "handle": "Build with Tommy",
+            "bio": "I love to build houses",
+            "link": "",
+            "img": "https://i.imgur.com/GuAB8OE.jpeg",
+            "instagram_url": "https://www.instagram.com/tommybuilds/",
+            "followers": [
+                {
+                    "user_iuud": "c801e110-e430-46fb-8c07-10340f4145ff"
+                }
+            ]
+        }
+    ],
+    "threads": [
+        {
+            "id": 0,
+            "timestamp": "Sat Feb 10 2024 10:57:50 GMT-0700 (Mountain Standard Time)",
+            "thread_from": "f9712cd1-b722-46ae-a75e-44e323f795ba",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "Hello World of Threads",
+            "likes":[
+                {
+                    "uuid": "f9712cd1-b722-46ae-a75e-44e323f795ba" 
+                },
+                {
+                    "uuid": "a8e841ac-b224-4574-8547-630ba8af304d"
+                }
+            ]
+        },
+        {
+            "id": 1,
+            "timestamp": "Sat Feb 10 2024 9:57:50 GMT-0700 (Mountain Standard Time)",
+            "thread_from": "c801e110-e430-46fb-8c07-10340f4145ff",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "Goodbye World of Threads",
+            "likes":[]
+        },
+        {
+            "id": 2,
+            "timestamp": "Sat Feb 10 2024 8:57:50 GMT-0700 (Mountain Standard Time)",
+            "thread_from": "c801e110-e430-46fb-8c07-10340f4145ff",
+            "thread_to": null,
+            "reply_to": null,
+            "text": "Another One!!",
+            "likes":[]
+        }
+    ]
+}
